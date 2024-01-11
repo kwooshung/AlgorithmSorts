@@ -1,8 +1,9 @@
 /**
- * 基数排序（LSD）
- * @param {number[]} array 要排序的数组。
- * @returns {number[]} 返回排序后的数组
+ * 基数排序（LSD）/ Radix Sort (LSD)
+ * @param {number[]} array 要排序的数组。/ Array to be sorted.
+ * @returns {number[]} 返回排序后的数组 / Returns the sorted array
  */
+
 const lsd = (array: number[]): number[] => {
   // 计算最大数的位数
   const maxNum = Math.max(...array);
@@ -27,10 +28,10 @@ const lsd = (array: number[]): number[] => {
 };
 
 /**
- * 基数排序（MSD）
- * @param {number[]} array 要排序的数组
- * @param {modifyOriginal} [modifyOriginal = true] 是否修改原数组
- * @returns {number[]} 返回排序后的数组
+ * 基数排序（MSD）/ Radix Sort (MSD)
+ * @param {number[]} array 要排序的数组 / Array to be sorted
+ * @param {modifyOriginal} [modifyOriginal = true] 是否修改原数组 / Whether to modify the original array
+ * @returns {number[]} 返回排序后的数组 / Returns the sorted array
  */
 const msd = (array: number[], modifyOriginal: boolean = true): number[] => {
   const getMaxDigits = (arr: number[]): number => {
@@ -68,15 +69,15 @@ const msd = (array: number[], modifyOriginal: boolean = true): number[] => {
 };
 
 /**
- * 基数排序
- * @description 基数排序是一种非比较型整数排序算法，通过分配和收集过程来排序
- * @usageScenario 适用于大范围整数或字符串排序
- * @timeComplexity O(nk)，其中n是排序元素的个数，k是数字的最大位数
- * @param {'lsd' | 'msd'} type 排序类型，lsd 表示最低位优先（适用于小数据集），msd 表示最高位优先（适用于大数据集）
- * @param {number[]} array 要排序的数组。
- * @param {modifyOriginal} [modifyOriginal = true] 是否修改原数组
- * @param {boolean} [reverse = false] 是否反转结果
- * @returns {number[]} 返回排序后的数组
+ * 基数排序 / Radix Sort
+ * @description 基数排序是一种非比较型整数排序算法，通过分配和收集过程来排序 / A non-comparative integer sorting algorithm that sorts by distributing and collecting
+ * @usageScenario 适用于大范围整数或字符串排序 / Suitable for large range integer or string sorting
+ * @timeComplexity O(nk)，其中n是排序元素的个数，k是数字的最大位数 / O(nk), where n is the number of elements to sort, k is the maximum number of digits
+ * @param {'lsd' | 'msd'} type 排序类型，lsd 表示最低位优先（适用于小数据集），msd 表示最高位优先（适用于大数据集） / Type of sort, 'lsd' for least significant digit first (for small datasets), 'msd' for most significant digit first (for large datasets)
+ * @param {number[]} array 要排序的数组。/ Array to be sorted.
+ * @param {modifyOriginal} [modifyOriginal = true] 是否修改原数组 / Whether to modify the original array
+ * @param {boolean} [reverse = false] 是否反转结果 / Whether to reverse the result
+ * @returns {number[]} 返回排序后的数组 / Returns the sorted array
  */
 const radix = (type: 'lsd' | 'msd', array: number[], modifyOriginal: boolean = true, reverse: boolean = false): number[] => {
   !modifyOriginal && (array = [...array]);
