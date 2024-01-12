@@ -30,7 +30,7 @@ const findMaxIndex = <T>(arr: T[], n: number, comp: compare): number => {
 };
 
 /**
- * 煎饼排序（Pancake Sorting）/ Pancake Sorting
+ * 煎饼排序 / Pancake Sorting
  * @description 煎饼排序是一种排序算法，通过一系列的煎饼翻转操作来排序数组。在煎饼排序中，允许的操作是反转数组的前 n 个元素。/ Pancake sorting is a sorting algorithm that sorts an array through a series of pancake flipping operations. In pancake sorting, the allowed operation is flipping the first n elements of the array.
  * @usageScenario 适用于当翻转操作成本高于比较操作时的排序场景。/ Suitable for sorting scenarios where the cost of flipping operations is higher than comparison operations.
  * @timeComplexity 平均情况和最坏情况均为 O(n^2)，最好情况为 O(n) / Average and worst case O(n^2), best case O(n)

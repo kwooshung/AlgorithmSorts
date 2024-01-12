@@ -185,7 +185,7 @@ module.exports = {
            * 可使用的变量：
            * id：表示提交id，完整的ID一般为40位
            */
-          url: 'https://github.com/kwooshung/algorithms-sorts/commit/{{id}}'
+          url: 'https://github.com/kwooshung/algorithm-sorts/commit/{{id}}'
         }
       }
     }

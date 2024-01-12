@@ -5,6 +5,6 @@ export default defineConfig({
   base: './',
   server: configServer(),
   plugins: [configDts],
-  build: configBuild('AlgorithmsSorts', 'algorithms-sorts', ['cjs', 'esm', 'umd']),
+  build: configBuild('AlgorithmSorts', 'algorithm-sorts', ['cjs', 'esm', 'umd']),
   resolve: configResolve
 });

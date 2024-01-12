@@ -14,8 +14,9 @@ const {
   sortBubble,
   sortShortBubble,
   sortTim,
-  sortPancake
-} = require('../dist/algorithm.cjs');
+  sortPancake,
+  sortCocktail
+} = require('../dist/algorithm-sorts.cjs');
 
 const fns = {
   /**
@@ -179,15 +180,13 @@ const fns = {
       let oldNoFunction = false;
 
       oldStartTime = performance.now();
-      if (key === 'counting') {
-        fns.algorithms.old['counting'](data1);
-      } else if (key === 'optimizedCounting') {
+      if (key === 'optimizedCounting') {
         let inx = 0;
         let oldCountingEmpty;
         // 有的时候，老版本不能处理某些随机的数据，不知是什么原因导致最终结果为空数组，这里做一个循环，重新生成数据，直到结果不为空
         do {
           // 首先，排序一次
-          oldCountingEmpty = fns.algorithms.old['counting'](data1).length === 0;
+          oldCountingEmpty = fns.algorithms.old[key](data1).length === 0;
 
           // 如果结果为空
           if (oldCountingEmpty) {
@@ -218,7 +217,7 @@ const fns = {
       oldExecutionTime = oldEndTime - oldStartTime;
 
       const newStartTime = performance.now();
-      if (key === 'counting' || key === 'optimizedCounting') {
+      if (key === 'optimizedCounting') {
         fns.algorithms.new[key](data2, true);
       } else if (key === 'radix') {
         fns.algorithms.new[key]('lsd', data2, true);
@@ -237,7 +236,7 @@ const fns = {
         console.log(`${chalk.dim('├──')} ${chalk.magenta('algorithms.js')}                      ${chalk.redBright('不存在对应算法 / The corresponding algorithm does not exist.')}`);
 
         console.log(
-          `${chalk.dim('├──')} ${chalk.green('@kwooshung/algorithms')}              ${chalk.greenBright(fns.format.decimal(newExecutionTime))} ${chalk.dim('ms')}   ${tips.length >= 2 ? tips[1] : ''}`
+          `${chalk.dim('├──')} ${chalk.green('@kwooshung/algorithm-sorts')}         ${chalk.greenBright(fns.format.decimal(newExecutionTime))} ${chalk.dim('ms')}   ${tips.length >= 2 ? tips[1] : ''}`
         );
 
         console.log(`${chalk.dim('└')}                                      ${chalk.bold.greenBright('0')} ${chalk.dim('ms')}\n`);
@@ -249,7 +248,7 @@ const fns = {
         );
 
         console.log(
-          `${chalk.dim('├──')} ${chalk.green('@kwooshung/algorithms')}              ${chalk[isNewFaster ? 'greenBright' : 'redBright'](fns.format.decimal(newExecutionTime))} ${chalk.dim('ms')}   ${
+          `${chalk.dim('├──')} ${chalk.green('@kwooshung/algorithm-sorts')}         ${chalk[isNewFaster ? 'greenBright' : 'redBright'](fns.format.decimal(newExecutionTime))} ${chalk.dim('ms')}   ${
             tips.length >= 2 ? tips[1] : ''
           }`
         );
@@ -276,7 +275,7 @@ const fns = {
       insertion: algorithmOld.Sorting.insertionSort,
       selection: algorithmOld.Sorting.selectionSort,
       shell: algorithmOld.Sorting.shellSort,
-      counting: algorithmOld.Sorting.countingSort,
+      optimizedCounting: algorithmOld.Sorting.countingSort,
       radix: algorithmOld.Sorting.radixSort,
       bubble: algorithmOld.Sorting.bubbleSort,
       shortBubble: algorithmOld.Sorting.shortBubbleSort
@@ -297,7 +296,8 @@ const fns = {
       bubble: sortBubble,
       shortBubble: sortShortBubble,
       tim: sortTim,
-      pancake: sortPancake
+      pancake: sortPancake,
+      cocktail: sortCocktail
     }
   }
 };
@@ -309,30 +309,11 @@ const fns = {
   const datas = fns.speeds.datas(count, 6, 32, 0, 1000000);
   const keyDatas = fns.generate.array(count, 6, 32, 0, 1000000, true);
 
-  fns.speeds.test('快速排序 / Quick Sort', 'quick', datas);
-  fns.speeds.test('归并排序 / Merge Sort', 'merge', datas);
-  fns.speeds.test('堆排序 / Heap Sort', 'heap', datas);
-  fns.speeds.test('插入排序 / Insertion Sort', 'insertion', datas);
-  fns.speeds.test('选择排序 / Selection Sort', 'selection', datas);
-  fns.speeds.test('希尔排序 / Shell Sort', 'shell', datas);
-  fns.speeds.test('计数排序 / Counting Sort', 'counting', datas, [
-    [
-      '计数排序的优化版本 (Optimized version of counting sort)',
-      '1、适用于数组中的元素是对象，且每个对象有一个名为 key 的整数属性 (Suitable for arrays where elements are objects with an integer attribute named key)',
-      '2、通过直接使用 key 值作为索引，避免了额外的映射步骤，提高了排序效率 (Uses key values as indices directly, avoiding extra mapping steps and improving efficiency)',
-      '3、专门针对具有特定结构的数据进行优化 (Specifically optimized for data with certain structures)',
-      ''
-    ],
-    [
-      '与之相比 (In comparison)',
-      '1、本函数为更通用的计数排序实现 (This function is a more general implementation of counting sort)',
-      '2、由于需要将非数字元素映射为索引，因此效率略低，但它是标准的计数排序 (Efficiency is slightly lower due to the need to map non-numeric elements to indices, However, it is a standard counting sort.)',
-      '3、适用于更广泛的数据类型，但牺牲了一些效率 (Applicable to a wider range of data types, but at the expense of some efficiency)',
-      `4、${chalk.magenta('其实这个比较不太公平')}，建议参考下一个同类算法的计数排序 (${chalk.magenta(
-        'Actually, this comparison is not quite fair'
-      )}; refer to the counting sort of the next similar algorithm for a better comparison)`
-    ]
-  ]);
+  fns.speeds.test('冒泡排序 / Bubble Sort', 'bubble', datas);
+  fns.speeds.test('短冒泡排序 / Shout Bubble Sort', 'shortBubble', datas);
+  fns.speeds.test('鸡尾酒排序 / Cocktail Sort', 'cocktail', datas);
+
+  fns.speeds.test('计数排序 / Counting Sort', 'counting', datas);
   fns.speeds.test('计数排序（优化版本） / Optimized Counting Sort', 'optimizedCounting', keyDatas, [
     [
       `有的时候，${chalk.magenta('algorithms.js')} 不能处理某些随机的数据 (Sometimes, ${chalk.magenta('algorithms.js')} can't process certain random data.)`,
@@ -342,9 +323,13 @@ const fns = {
       ''
     ]
   ]);
-  fns.speeds.test('基数排序 / Radix Sort', 'radix', datas);
-  fns.speeds.test('冒泡排序 / Bubble Sort', 'bubble', datas);
-  fns.speeds.test('短冒泡排序 / Shout Bubble Sort', 'shortBubble', datas);
-  fns.speeds.test('定向排序 / Tim Sort', 'tim', datas);
+  fns.speeds.test('堆排序 / Heap Sort', 'heap', datas);
+  fns.speeds.test('插入排序 / Insertion Sort', 'insertion', datas);
+  fns.speeds.test('归并排序 / Merge Sort', 'merge', datas);
   fns.speeds.test('煎饼排序 / Pancake Sort', 'pancake', datas);
+  fns.speeds.test('快速排序 / Quick Sort', 'quick', datas);
+  fns.speeds.test('基数排序 / Radix Sort', 'radix', datas);
+  fns.speeds.test('选择排序 / Selection Sort', 'selection', datas);
+  fns.speeds.test('希尔排序 / Shell Sort', 'shell', datas);
+  fns.speeds.test('定向排序 / Tim Sort', 'tim', datas);
 })();

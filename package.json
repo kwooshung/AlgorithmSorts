@@ -1,43 +1,43 @@
 {
-  "name": "@kwooshung/algorithms-sorts",
+  "name": "@kwooshung/algorithm-sorts",
   "version": "0.9.9",
-  "title": "algorithms-sorts",
+  "title": "algorithm-sorts",
   "description": "Better algorithm implementation library",
   "private": false,
   "tags": [
     "kwooshung",
     "algorithms",
     "algorithms.js",
-    "algorithms-sorts",
-    "algorithms-sorts.js",
+    "algorithm-sorts",
+    "algorithm-sorts.js",
     "suanfa"
   ],
   "keywords": [
     "kwooshung",
     "algorithms",
     "algorithms.js",
-    "algorithms-sorts",
-    "algorithms-sorts.js",
+    "algorithm-sorts",
+    "algorithm-sorts.js",
     "suanfa"
   ],
   "author": "kwooshung",
-  "homepage": "https://github.com/kwooshung/algorithms-sorts",
+  "homepage": "https://github.com/kwooshung/algorithm-sorts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/kwooshung/algorithms-sorts.git"
+    "url": "https://github.com/kwooshung/algorithm-sorts.git"
   },
   "bugs": {
-    "url": "https://github.com/kwooshung/algorithms-sorts/issues"
+    "url": "https://github.com/kwooshung/algorithm-sorts/issues"
   },
   "type": "module",
-  "main": "dist/algorithms-sorts.cjs",
-  "module": "dist/algorithms-sorts.mjs",
-  "unpkg": "dist/algorithms-sorts.js",
+  "main": "dist/algorithm-sorts.cjs",
+  "module": "dist/algorithm-sorts.mjs",
+  "unpkg": "dist/algorithm-sorts.js",
   "types": "dist/index.d.ts",
   "exports": {
     ".": {
-      "require": "./dist/algorithms-sorts.cjs",
-      "import": "./dist/algorithms-sorts.mjs",
+      "require": "./dist/algorithm-sorts.cjs",
+      "import": "./dist/algorithm-sorts.mjs",
       "types": "./dist/index.d.ts"
     }
   },
