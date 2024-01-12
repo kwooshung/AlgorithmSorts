@@ -81,19 +81,19 @@ The comparison involves random data of 1000 items, with string lengths varying f
 ## npm
 
 ```bash
-npm install @kwooshung/algorithm-sorts --save-dev
+npm install @kwooshung/algorithm-sorts
 ```
 
 ## yarn
 
 ```bash
-yarn add @kwooshung/algorithm-sorts -D
+yarn add @kwooshung/algorithm-sorts
 ```
 
 ## pnpm
 
 ```bash
-pnpm add @kwooshung/algorithm-sorts -D
+pnpm add @kwooshung/algorithm-sorts
 ```
 
 # Usage
