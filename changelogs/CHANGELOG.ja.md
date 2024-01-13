@@ -1,8 +1,12 @@
 ## 🎉 1.0.1 `2024-01-13`
+### 📦 Release
+- 新しいバージョン1.0.1 ([#dfeffb0](https://github.com/kwooshung/algorithm-sorts/commit/dfeffb0f366ca0275193246e889c0c23bf48788c))
 ### 🐛 Fix
 - インストールエラーコマンドエラーを修正します ([#3d2c2a8](https://github.com/kwooshung/algorithm-sorts/commit/3d2c2a87cac3b92ac0e2c9bfc9f3073fe1e4f423))
 
 ## 🎉 1.0.0 `2024-01-12`
+### 📦 Release
+- 新しいバージョン1.0.0 ([#4e1e596](https://github.com/kwooshung/algorithm-sorts/commit/4e1e596fd0b239342b826b1e3a3ed2b96c3782fc))
 ### 📚 Docs
 - 文書が完成したことを説明してください ([#a4f2250](https://github.com/kwooshung/algorithm-sorts/commit/a4f225034537c529add94987d284267945ca4759))
 ### 🐛 Fix
