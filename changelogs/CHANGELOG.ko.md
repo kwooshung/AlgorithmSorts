@@ -1,28 +1,33 @@
-## 🎉 1.0.7 `2024-01-13`
-### 🐛 Fix
-- 노드 버전 요구 사항을 제거하십시오 ([#0e0d737](https://github.com/kwooshung/algorithm-sorts/commit/0e0d737a301488be61c01a0f4d04e3d5579e0297))
-
 ## 🎉 1.0.6 `2024-01-13`
+### 📦 Release
+- 새로운 버전 1.0.6 ([#9cf798b](https://github.com/kwooshung/algorithm-sorts/commit/9cf798b0c6d596b6c684a4ded5048f1867f58766))
 ### 🐛 Fix
 - 경로를 업데이트, 그렇지 않으면 index.d.ts가 생성되었습니다 ([#2ac4a40](https://github.com/kwooshung/algorithm-sorts/commit/2ac4a407fe24f728131539472abf39b9a18ac278))
 
 ## 🎉 1.0.5 `2024-01-13`
+### 📦 Release
+- 새로운 버전 1.0.5 ([#f56c079](https://github.com/kwooshung/algorithm-sorts/commit/f56c07973103ce216c1d471e846ae2236cbc5de0))
 ### 🐛 Fix
 - Gitee 주소 오류 ([#1691b6a](https://github.com/kwooshung/algorithm-sorts/commit/1691b6add64463040261f9d1a2d66d880bc48173))
 
 ## 🎉 1.0.4 `2024-01-13`
+### 📦 Release
+- 새로운 버전 1.0.4 ([#0b0761a](https://github.com/kwooshung/algorithm-sorts/commit/0b0761acc1488cb30cc092680ada5e6ccee6ac30))
 ### 🐛 Fix
 - Gitee Warehouse 카드를 늘리십시오 ([#fbbb72d](https://github.com/kwooshung/algorithm-sorts/commit/fbbb72da703028dc58d4552eb6848f7a3686dc9d))
 
 ## 🎉 1.0.3 `2024-01-13`
+### 📦 Release
+- 새 버전 1.0.3 ([#99b490d](https://github.com/kwooshung/algorithm-sorts/commit/99b490d0db07f5ad5a96c7506f073a3093f24977))
 ### 📚 Docs
 - 프로젝트 소개에 대한 설명 문서의 일부는 명확합니다. ([#3c532f9](https://github.com/kwooshung/algorithm-sorts/commit/3c532f90af5e8711e7fca249a1404cd99ef547d3))
 
 ## 🎉 1.0.2 `2024-01-13`
+### 📦 Release
+- 새로운 버전 1.0.2 ([#298c58f](https://github.com/kwooshung/algorithm-sorts/commit/298c58f5297531e56dc30dbf58ddc4d6a22a8ada))
+- 새 버전 1.0.3 ([#5ac9ac4](https://github.com/kwooshung/algorithm-sorts/commit/5ac9ac4deb866d571e0e6141cb684b85fa5b0670))
 ### 🐛 Fix
 - 버전 번호는 지난번에 잘못되었으며 1.0.2 여야합니다. ([#a1d3606](https://github.com/kwooshung/algorithm-sorts/commit/a1d360655644aba03a7d0d0c2a5601b1bda927f7))
-### 📦 Release
-- 새 버전 1.0.3 ([#5ac9ac4](https://github.com/kwooshung/algorithm-sorts/commit/5ac9ac4deb866d571e0e6141cb684b85fa5b0670))
 ### 📝 Changelog
 - 로그 형식을 수정하고 적용 속도를 다시 제출하십시오. ([#8e08341](https://github.com/kwooshung/algorithm-sorts/commit/8e08341af567d21de610b80a2f04ac5ba4b5a48a))
 
