@@ -1,3 +1,7 @@
+## 🎉 1.0.6 `2024-01-13`
+### 🐛 Fix
+- Обновите путь, в противном случае сгенерированный index.d.ts ([#2ac4a40](https://github.com/kwooshung/algorithm-sorts/commit/2ac4a407fe24f728131539472abf39b9a18ac278))
+
 ## 🎉 1.0.5 `2024-01-13`
 ### 🐛 Fix
 - Ошибка адреса Gitee ([#1691b6a](https://github.com/kwooshung/algorithm-sorts/commit/1691b6add64463040261f9d1a2d66d880bc48173))
