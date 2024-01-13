@@ -1,3 +1,7 @@
+## 🎉 1.0.3 `2024-01-13`
+### 📚 Docs
+- The description of the project introduction part of the document is clearer ([#3c532f9](https://github.com/kwooshung/algorithm-sorts/commit/3c532f90af5e8711e7fca249a1404cd99ef547d3))
+
 ## 🎉 1.0.2 `2024-01-13`
 ### 🐛 Fix
 - The version number was wrong last time, it should be 1.0.2 ([#a1d3606](https://github.com/kwooshung/algorithm-sorts/commit/a1d360655644aba03a7d0d0c2a5601b1bda927f7))
