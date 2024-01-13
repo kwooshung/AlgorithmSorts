@@ -1,3 +1,10 @@
+## 🎉 1.0.7 `2024-01-13`
+### 🐛 Fix
+- Обновление зависит от последней версии ([#1ae9a0f](https://github.com/kwooshung/algorithm-sorts/commit/1ae9a0fbc2096304f2daf93a6363e660bdf5c9d5))
+- Удалить требования к версии узла ([#0e0d737](https://github.com/kwooshung/algorithm-sorts/commit/0e0d737a301488be61c01a0f4d04e3d5579e0297))
+### 📦 Release
+- Новая версия 1.0.7 ([#d7ddaa4](https://github.com/kwooshung/algorithm-sorts/commit/d7ddaa419bfd2acaeaa15ff022aa90bf21ef51d4))
+
 ## 🎉 1.0.6 `2024-01-13`
 ### 📦 Release
 - Новая версия 1.0.6 ([#9cf798b](https://github.com/kwooshung/algorithm-sorts/commit/9cf798b0c6d596b6c684a4ded5048f1867f58766))
