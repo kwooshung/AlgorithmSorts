@@ -1,3 +1,11 @@
+## 🎉 1.0.2 `2024-01-13`
+### 🐛 Fix
+- バージョン番号は前回間違っていましたが、1.0.2でなければなりません ([#a1d3606](https://github.com/kwooshung/algorithm-sorts/commit/a1d360655644aba03a7d0d0c2a5601b1bda927f7))
+### 📦 Release
+- 新しいバージョン1.0.3 ([#5ac9ac4](https://github.com/kwooshung/algorithm-sorts/commit/5ac9ac4deb866d571e0e6141cb684b85fa5b0670))
+### 📝 Changelog
+- ログ形式を変更し、カバレッジレートを再登録します ([#8e08341](https://github.com/kwooshung/algorithm-sorts/commit/8e08341af567d21de610b80a2f04ac5ba4b5a48a))
+
 ## 🎉 1.0.1 `2024-01-13`
 ### 📦 Release
 - 新しいバージョン1.0.1 ([#dfeffb0](https://github.com/kwooshung/algorithm-sorts/commit/dfeffb0f366ca0275193246e889c0c23bf48788c))
