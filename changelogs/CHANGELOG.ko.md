@@ -1,3 +1,7 @@
+## 🎉 1.0.7 `2024-01-13`
+### 🐛 Fix
+- 노드 버전 요구 사항을 제거하십시오 ([#0e0d737](https://github.com/kwooshung/algorithm-sorts/commit/0e0d737a301488be61c01a0f4d04e3d5579e0297))
+
 ## 🎉 1.0.6 `2024-01-13`
 ### 🐛 Fix
 - 경로를 업데이트, 그렇지 않으면 index.d.ts가 생성되었습니다 ([#2ac4a40](https://github.com/kwooshung/algorithm-sorts/commit/2ac4a407fe24f728131539472abf39b9a18ac278))

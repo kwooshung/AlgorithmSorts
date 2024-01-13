@@ -1,6 +1,6 @@
 {
   "name": "@kwooshung/algorithm-sorts",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "title": "algorithm-sorts",
   "description": "Better algorithm implementation library",
   "private": false,
@@ -53,9 +53,6 @@
     "test:ci": "vitest run --coverage",
     "compare": "node ./src/compare.cjs",
     "eslint": "eslint . --fix --cache --quiet --report-unused-disable-directives --max-warnings 0 --ext .js,.cjs,.jsx,.ts,.cts,.tsx"
-  },
-  "peerDependencies": {
-    "node": ">=14.0.0"
   },
   "devDependencies": {
     "@kwooshung/cvlar": "^1.3.4",
