@@ -1,3 +1,7 @@
+## 🎉 1.0.5 `2024-01-13`
+### 🐛 Fix
+- Ошибка адреса Gitee ([#1691b6a](https://github.com/kwooshung/algorithm-sorts/commit/1691b6add64463040261f9d1a2d66d880bc48173))
+
 ## 🎉 1.0.4 `2024-01-13`
 ### 🐛 Fix
 - Увеличить карту склада Gitee ([#fbbb72d](https://github.com/kwooshung/algorithm-sorts/commit/fbbb72da703028dc58d4552eb6848f7a3686dc9d))
