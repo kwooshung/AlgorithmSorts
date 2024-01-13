@@ -1,3 +1,7 @@
+## 🎉 1.0.3 `2024-01-13`
+### 📚 Docs
+- 프로젝트 소개에 대한 설명 문서의 일부는 명확합니다. ([#3c532f9](https://github.com/kwooshung/algorithm-sorts/commit/3c532f90af5e8711e7fca249a1404cd99ef547d3))
+
 ## 🎉 1.0.2 `2024-01-13`
 ### 🐛 Fix
 - 버전 번호는 지난번에 잘못되었으며 1.0.2 여야합니다. ([#a1d3606](https://github.com/kwooshung/algorithm-sorts/commit/a1d360655644aba03a7d0d0c2a5601b1bda927f7))

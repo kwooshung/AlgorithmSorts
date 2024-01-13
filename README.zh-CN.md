@@ -25,7 +25,7 @@
 
 # 为什么开发它？
 
-- 开发时，我需要用到算法，我找到了 [algorithms.js](https://github.com/felipernb/algorithms.js) 这个库，它的实现方式非常好，本项目就在 [compare](src/internal/compare/index.ts) [algorithms.js](https://github.com/felipernb/algorithms.js) 的基础略作修改。
+- 开发时，我需要用到算法，我找到了 [algorithms.js](https://github.com/felipernb/algorithms.js) 这个库，它的实现方式非常好，本项目的 [compare](src/internal/compare/index.ts) 就在 [algorithms.js](https://github.com/felipernb/algorithms.js) 的基础略作修改。
 - [algorithms.js](https://github.com/felipernb/algorithms.js) 不是通过 `esm` 的规范实现的，而是通过 `commonjs` 的规范实现的，这样就不能使用 `树摇（tree-shaking）` 了，虽然有一些间接的方式实现，但不如直接使用 `esm`规范来的方便。
 - [algorithms.js](https://github.com/felipernb/algorithms.js) 已有多年没有维护了，一些算法和实现逻辑使用现代的方式实现会更好。
 

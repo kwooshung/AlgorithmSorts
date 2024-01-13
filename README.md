@@ -48,7 +48,7 @@
  */
 ```
 
-- Compared to [algorithms.js](https://github.com/felipernb/algorithms.js), our sorting algorithms include several additional ones, with more to be added in the future.
+- When developing, I need to use algorithms. I found this library [algorithms.js](https://github.com/felipernb/algorithms.js). Its implementation is very good. This project’s [compare](src /internal/compare/index.ts) is slightly modified based on [algorithms.js](https://github.com/felipernb/algorithms.js).
 - In most cases, the efficiency of our library's algorithms is superior to [algorithms.js](https://github.com/felipernb/algorithms.js). There are comparative charts below, and you can also `git clone` this project and run `npm compare` for testing.
 
 # When Not to Use It?
