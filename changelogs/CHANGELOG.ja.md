@@ -1,3 +1,7 @@
+## 🎉 1.0.4 `2024-01-13`
+### 🐛 Fix
+- Gitee倉庫カードを増やします ([#fbbb72d](https://github.com/kwooshung/algorithm-sorts/commit/fbbb72da703028dc58d4552eb6848f7a3686dc9d))
+
 ## 🎉 1.0.3 `2024-01-13`
 ### 📚 Docs
 - ドキュメントのプロジェクトの紹介部分の説明はより明確です ([#3c532f9](https://github.com/kwooshung/algorithm-sorts/commit/3c532f90af5e8711e7fca249a1404cd99ef547d3))

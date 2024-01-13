@@ -14,7 +14,7 @@
 [![codecov](https://codecov.io/gh/kwooshung/algorithm-sorts/graph/badge.svg?token=VVZJE7H0KD)](https://codecov.io/gh/kwooshung/algorithm-sorts)
 [![Maintainability](https://api.codeclimate.com/v1/badges/325d0881b1ca19165d35/maintainability)](https://codeclimate.com/github/kwooshung/algorithm-sorts/maintainability/)
 [![GitHub License](https://img.shields.io/github/license/kwooshung/algorithm-sorts?labelColor=272e3b&color=165dff)](LICENSE)
-[![Gitee Repo](https://img.shields.io/badge/gitee-cvlar-165dff?logo=gitee)](https://gitee.com/kwooshung/algorithm-sorts/)
+[![Gitee Repo](https://img.shields.io/badge/gitee-algorithm--sorts-165dff?logo=gitee)](https://gitee.com/kwooshung/cvlar/)
 ![Github Stars](https://img.shields.io/github/stars/kwooshung/algorithm-sorts?labelColor=272e3b&color=165dff)
 
 <p align="center">
@@ -130,3 +130,7 @@ const { bubbleSort } = require('@kwooshung/algorithm-sorts');
 - [&raquo; 选择排序](src/sorts/selection/index.ts)
 - [&raquo; 希尔排序](src/sorts/shell/index.ts)
 - [&raquo; 定序排序](src/sorts/tim/index.ts)
+
+# Gitee 仓库
+
+[![KwooShung/algorithm-sorts](https://gitee.com/kwooshung/algorithm-sorts/widgets/widget_card.svg?colors=ffffff,1e252b,323d47,455059,d7deea,99a0ae)](https://gitee.com/kwooshung/algorithm-sorts)
