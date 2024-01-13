@@ -1,7 +1,3 @@
-## 🎉 1.0.3 `2024-01-13`
-### 📝 Changelog
-- Измените формат журнала и повторно поставьте скорость покрытия ([#8e08341](https://github.com/kwooshung/algorithm-sorts/commit/8e08341af567d21de610b80a2f04ac5ba4b5a48a))
-
 ## 🎉 1.0.1 `2024-01-13`
 ### 📦 Release
 - Новая версия 1.0.1 ([#dfeffb0](https://github.com/kwooshung/algorithm-sorts/commit/dfeffb0f366ca0275193246e889c0c23bf48788c))
