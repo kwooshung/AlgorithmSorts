@@ -14,7 +14,7 @@
 [![codecov](https://codecov.io/gh/kwooshung/algorithm-sorts/graph/badge.svg?token=VVZJE7H0KD)](https://codecov.io/gh/kwooshung/algorithm-sorts)
 [![Maintainability](https://api.codeclimate.com/v1/badges/325d0881b1ca19165d35/maintainability)](https://codeclimate.com/github/kwooshung/algorithm-sorts/maintainability/)
 [![GitHub License](https://img.shields.io/github/license/kwooshung/algorithm-sorts?labelColor=272e3b&color=165dff)](LICENSE)
-[![Gitee Repo](https://img.shields.io/badge/gitee-algorithm--sorts-165dff?logo=gitee)](https://gitee.com/kwooshung/cvlar/)
+[![Gitee Repo](https://img.shields.io/badge/gitee-algorithm--sorts-165dff?logo=gitee)](https://gitee.com/kwooshung/algorithm-sorts/)
 ![Github Stars](https://img.shields.io/github/stars/kwooshung/algorithm-sorts?labelColor=272e3b&color=165dff)
 
 <p align="center">
