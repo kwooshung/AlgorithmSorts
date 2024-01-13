@@ -1,3 +1,7 @@
+## 🎉 1.0.7 `2024-01-13`
+### 🐛 Fix
+- ノードバージョンの要件を削除します ([#0e0d737](https://github.com/kwooshung/algorithm-sorts/commit/0e0d737a301488be61c01a0f4d04e3d5579e0297))
+
 ## 🎉 1.0.6 `2024-01-13`
 ### 🐛 Fix
 - パスを更新します。それ以外の場合は、index.d.ts生成されます ([#2ac4a40](https://github.com/kwooshung/algorithm-sorts/commit/2ac4a407fe24f728131539472abf39b9a18ac278))
