@@ -1,3 +1,7 @@
+## 🎉 1.0.8 `2024-01-21`
+### 🆕 Add
+- .gitattributes、強制設定をLFに追加します ([#87a9a02](https://github.com/kwooshung/algorithm-sorts/commit/87a9a02dd32b7657308d5e0b7a6d2a1f3c89493e))
+
 ## 🎉 1.0.7 `2024-01-13`
 ### 🐛 Fix
 - 更新は最新バージョンに依存します ([#1ae9a0f](https://github.com/kwooshung/algorithm-sorts/commit/1ae9a0fbc2096304f2daf93a6363e660bdf5c9d5))
