@@ -1,3 +1,7 @@
+## 🎉 1.0.9 `2024-01-25`
+### 💩 Optimization
+- 코드 종속성을 업데이트하고 성능을 최적화합니다 ([#76bf2f4](https://github.com/kwooshung/algorithm-sorts/commit/76bf2f40a1af50e2891be430745e7f44268b1f81))
+
 ## 🎉 1.0.8 `2024-01-21`
 ### 🆕 Add
 - .gitattributes, 강제 설정을 LF에 추가하십시오 ([#87a9a02](https://github.com/kwooshung/algorithm-sorts/commit/87a9a02dd32b7657308d5e0b7a6d2a1f3c89493e))
