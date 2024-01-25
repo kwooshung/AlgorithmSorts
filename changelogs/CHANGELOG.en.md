@@ -1,3 +1,7 @@
+## 🎉 1.0.9 `2024-01-25`
+### 💩 Optimization
+- Update code dependencies, optimize performance ([#76bf2f4](https://github.com/kwooshung/algorithm-sorts/commit/76bf2f40a1af50e2891be430745e7f44268b1f81))
+
 ## 🎉 1.0.8 `2024-01-21`
 ### 🆕 Add
 - Add .gitattributes, forced settings to LF ([#87a9a02](https://github.com/kwooshung/algorithm-sorts/commit/87a9a02dd32b7657308d5e0b7a6d2a1f3c89493e))
