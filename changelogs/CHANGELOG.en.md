@@ -1,3 +1,7 @@
+## 🎉 1.0.11 `2024-02-01`
+### 🐛 Fix
+- Change the warehouse address of the package ([#015c838](https://github.com/kwooshung/algorithm-sorts/commit/015c838377b8b0f07c0223d66cb846d55118f1c4))
+
 ## 🎉 1.0.10 `2024-02-01`
 ### 🐛 Fix
 - Modify the warehouse name to make it more uniform ([#9fe136e](https://github.com/kwooshung/algorithm-sorts/commit/9fe136e7789ef8aa05daacc81d6ae8313b86b832))

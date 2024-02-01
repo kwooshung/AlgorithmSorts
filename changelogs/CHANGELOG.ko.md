@@ -1,3 +1,7 @@
+## 🎉 1.0.11 `2024-02-01`
+### 🐛 Fix
+- 패키지의 창고 주소를 변경하십시오 ([#015c838](https://github.com/kwooshung/algorithm-sorts/commit/015c838377b8b0f07c0223d66cb846d55118f1c4))
+
 ## 🎉 1.0.10 `2024-02-01`
 ### 🐛 Fix
 - 창고 이름을 수정하여 더 균일하게 만들 수 있습니다 ([#9fe136e](https://github.com/kwooshung/algorithm-sorts/commit/9fe136e7789ef8aa05daacc81d6ae8313b86b832))
