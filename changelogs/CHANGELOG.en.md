@@ -1,3 +1,7 @@
+## 🎉 1.0.14 `2024-02-02`
+### 🐛 Fix
+- If you see this, you must laugh at me, and manage several items at the same time, faint, this time the command fixes ([#fc1456f](https://github.com/kwooshung/algorithm-sorts/commit/fc1456f01920a005dbbf04cc193c5955cd612584))
+
 ## 🎉 1.0.13 `2024-02-02`
 ### 🐛 Fix
 - English document, install command to write errors ([#ecf809d](https://github.com/kwooshung/algorithm-sorts/commit/ecf809d68524f23a4d3d026120d8a4fc29d38cb6))

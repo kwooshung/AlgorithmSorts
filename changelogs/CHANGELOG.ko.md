@@ -1,3 +1,7 @@
+## 🎉 1.0.14 `2024-02-02`
+### 🐛 Fix
+- 이것을 본다면, 당신은 나를 비웃고 동시에 여러 항목을 관리해야합니다. 이번에는 명령이 수정됩니다. ([#fc1456f](https://github.com/kwooshung/algorithm-sorts/commit/fc1456f01920a005dbbf04cc193c5955cd612584))
+
 ## 🎉 1.0.13 `2024-02-02`
 ### 🐛 Fix
 - 영어 문서, 명령을 설치하여 오류를 작성하십시오 ([#ecf809d](https://github.com/kwooshung/algorithm-sorts/commit/ecf809d68524f23a4d3d026120d8a4fc29d38cb6))

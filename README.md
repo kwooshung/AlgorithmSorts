@@ -1,6 +1,6 @@
 <div align="center">
 
-# @kwooshung/AlgorithmSorts
+# @kwooshung/algorithm-sorts
 
 ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/kwooshung/AlgorithmSorts?labelColor=272e3b&color=00b42A&logo=github)
 ![GitHub last commit](https://img.shields.io/github/last-commit/kwooshung/AlgorithmSorts?labelColor=272e3b&color=165dff)
@@ -59,41 +59,41 @@ As the project name suggests, our project's algorithms only support `sorting`. I
 
 The comparison involves random data of 1000 items, with string lengths varying from 6 to 32 and numbers ranging from 0 to 1,000,000, as shown below:
 
-| Algorithm               | algorithms.js | pnpm add @kwooshung/console-badge |   Difference   |
-| :---------------------- | :-----------: | :-------------------------------: | :------------: |
-| Bubble Sort             |  65.0368 ms   |            65.0298 ms             |   -0.0070 ms   |
-| Shout Bubble Sort       | 13251.3260 ms |            128.2500 ms            | -13123.0760 ms |
-| Cocktail Sort           |       -       |            52.7166 ms             |       -        |
-| Counting Sort           |       -       |            12.3503 ms             |       -        |
-| Optimized Counting Sort |  33.2357 ms   |            32.6380 ms             |   -0.5977 ms   |
-| Heap Sort               |   8.3025 ms   |             4.6525 ms             |   -3.6500 ms   |
-| Insertion Sort          |  27.4480 ms   |            27.4331 ms             |   -0.0149 ms   |
-| Merge Sort              |   2.9167 ms   |             2.5592 ms             |   -0.3575 ms   |
-| Pancake Sort            |       -       |            57.7009 ms             |      0 ms      |
-| Quick Sort              |   3.0599 ms   |             2.6374 ms             |   -0.4225 ms   |
-| Radix Sort              |   0.2070 ms   |             0.1339 ms             |   -0.0731 ms   |
-| Selection Sort          |  55.8389 ms   |            55.8000 ms             |   -0.0389 ms   |
-| Shell Sort              |   3.1775 ms   |             3.1564 ms             |   -0.0211 ms   |
-| Tim Sort                |       -       |             6.7950 ms             |       -        |
+| Algorithm               | algorithms.js | @kwooshung/algorithm-sorts |   Difference   |
+| :---------------------- | :-----------: | :------------------------: | :------------: |
+| Bubble Sort             |  65.0368 ms   |         65.0298 ms         |   -0.0070 ms   |
+| Shout Bubble Sort       | 13251.3260 ms |        128.2500 ms         | -13123.0760 ms |
+| Cocktail Sort           |       -       |         52.7166 ms         |       -        |
+| Counting Sort           |       -       |         12.3503 ms         |       -        |
+| Optimized Counting Sort |  33.2357 ms   |         32.6380 ms         |   -0.5977 ms   |
+| Heap Sort               |   8.3025 ms   |         4.6525 ms          |   -3.6500 ms   |
+| Insertion Sort          |  27.4480 ms   |         27.4331 ms         |   -0.0149 ms   |
+| Merge Sort              |   2.9167 ms   |         2.5592 ms          |   -0.3575 ms   |
+| Pancake Sort            |       -       |         57.7009 ms         |      0 ms      |
+| Quick Sort              |   3.0599 ms   |         2.6374 ms          |   -0.4225 ms   |
+| Radix Sort              |   0.2070 ms   |         0.1339 ms          |   -0.0731 ms   |
+| Selection Sort          |  55.8389 ms   |         55.8000 ms         |   -0.0389 ms   |
+| Shell Sort              |   3.1775 ms   |         3.1564 ms          |   -0.0211 ms   |
+| Tim Sort                |       -       |         6.7950 ms          |       -        |
 
 # Install
 
 ## npm
 
 ```bash
-npm install pnpm add @kwooshung/console-badge
+npm install @kwooshung/algorithm-sorts
 ```
 
 ## yarn
 
 ```bash
-yarn add pnpm add @kwooshung/console-badge
+yarn add @kwooshung/algorithm-sorts
 ```
 
 ## pnpm
 
 ```bash
-pnpm add pnpm add @kwooshung/console-badge
+pnpm add @kwooshung/algorithm-sorts
 ```
 
 # Usage
@@ -103,13 +103,13 @@ pnpm add pnpm add @kwooshung/console-badge
 ### esm
 
 ```ts
-import { bubbleSort } from 'pnpm add @kwooshung/console-badge';
+import { bubbleSort } from '@kwooshung/algorithm-sorts';
 ```
 
 ### commonjs
 
 ```ts
-const { bubbleSort } = require('pnpm add @kwooshung/console-badge');
+const { bubbleSort } = require('@kwooshung/algorithm-sorts');
 ```
 
 ## Supported Algorithms
