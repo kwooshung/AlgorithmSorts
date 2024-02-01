@@ -1,3 +1,7 @@
+## 🎉 1.0.12 `2024-02-02`
+### 🐛 Fix
+- Quality Test badges address ([#00a6ef5](https://github.com/kwooshung/algorithm-sorts/commit/00a6ef56c0833b619f1db75f81f0fa8d87d95d7e))
+
 ## 🎉 1.0.11 `2024-02-01`
 ### 🐛 Fix
 - Change the warehouse address of the package ([#015c838](https://github.com/kwooshung/algorithm-sorts/commit/015c838377b8b0f07c0223d66cb846d55118f1c4))

@@ -12,7 +12,7 @@
 [![Npm.js Downloads/Week](https://img.shields.io/npm/dw/@kwooshung/algorithm-sorts?labelColor=272e3b&labelColor=272e3b&color=165dff&logo=npm)](https://www.npmjs.com/package/@kwooshung/algorithm-sorts)
 [![Github CI/CD](https://github.com/kwooshung/AlgorithmSorts/actions/workflows/ci.yml/badge.svg)](https://github.com/kwooshung/AlgorithmSorts/actions/)
 [![codecov](https://codecov.io/gh/kwooshung/AlgorithmSorts/graph/badge.svg?token=VVZJE7H0KD)](https://codecov.io/gh/kwooshung/AlgorithmSorts)
-[![Maintainability](https://api.codeclimate.com/v1/badges/325d0881b1ca19165d35/maintainability)](https://codeclimate.com/github/kwooshung/AlgorithmSorts/maintainability/)
+[![Maintainability](https://api.codeclimate.com/v1/badges/00d03cf3b1b9037fbf45/maintainability)](https://codeclimate.com/github/kwooshung/AlgorithmSorts/maintainability)
 [![GitHub License](https://img.shields.io/github/license/kwooshung/AlgorithmSorts?labelColor=272e3b&color=165dff)](LICENSE)
 [![Gitee Repo](https://img.shields.io/badge/gitee-algorithm--sorts-165dff?logo=gitee)](https://gitee.com/kwooshung/AlgorithmSorts/)
 ![Github Stars](https://img.shields.io/github/stars/kwooshung/AlgorithmSorts?labelColor=272e3b&color=165dff)
