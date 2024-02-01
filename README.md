@@ -1,21 +1,21 @@
 <div align="center">
 
-# @kwooshung/algorithm-sorts
+# @kwooshung/AlgorithmSorts
 
-![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/kwooshung/algorithm-sorts?labelColor=272e3b&color=00b42A&logo=github)
-![GitHub last commit](https://img.shields.io/github/last-commit/kwooshung/algorithm-sorts?labelColor=272e3b&color=165dff)
-![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/kwooshung/algorithm-sorts?labelColor=272e3b&color=165dff)
-![GitHub top language](https://img.shields.io/github/languages/top/kwooshung/algorithm-sorts?labelColor=272e3b&color=165dff)
-![GitHub pull requests](https://img.shields.io/github/issues-pr/kwooshung/algorithm-sorts?labelColor=272e3b&color=165dff)
-![GitHub issues](https://img.shields.io/github/issues/kwooshung/algorithm-sorts?labelColor=272e3b&color=165dff)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/kwooshung/AlgorithmSorts?labelColor=272e3b&color=00b42A&logo=github)
+![GitHub last commit](https://img.shields.io/github/last-commit/kwooshung/AlgorithmSorts?labelColor=272e3b&color=165dff)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/kwooshung/AlgorithmSorts?labelColor=272e3b&color=165dff)
+![GitHub top language](https://img.shields.io/github/languages/top/kwooshung/AlgorithmSorts?labelColor=272e3b&color=165dff)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/kwooshung/AlgorithmSorts?labelColor=272e3b&color=165dff)
+![GitHub issues](https://img.shields.io/github/issues/kwooshung/AlgorithmSorts?labelColor=272e3b&color=165dff)
 [![NPM Version](https://img.shields.io/npm/v/@kwooshung/algorithm-sorts?labelColor=272e3b&color=165dff)](https://www.npmjs.com/package/@kwooshung/algorithm-sorts)
 [![Npm.js Downloads/Week](https://img.shields.io/npm/dw/@kwooshung/algorithm-sorts?labelColor=272e3b&labelColor=272e3b&color=165dff&logo=npm)](https://www.npmjs.com/package/@kwooshung/algorithm-sorts)
-[![Github CI/CD](https://github.com/kwooshung/algorithm-sorts/actions/workflows/ci.yml/badge.svg)](https://github.com/kwooshung/algorithm-sorts/actions/)
-[![codecov](https://codecov.io/gh/kwooshung/algorithm-sorts/graph/badge.svg?token=VVZJE7H0KD)](https://codecov.io/gh/kwooshung/algorithm-sorts)
-[![Maintainability](https://api.codeclimate.com/v1/badges/325d0881b1ca19165d35/maintainability)](https://codeclimate.com/github/kwooshung/algorithm-sorts/maintainability/)
-[![GitHub License](https://img.shields.io/github/license/kwooshung/algorithm-sorts?labelColor=272e3b&color=165dff)](LICENSE)
-[![Gitee Repo](https://img.shields.io/badge/gitee-algorithm--sorts-165dff?logo=gitee)](https://gitee.com/kwooshung/algorithm-sorts/)
-![Github Stars](https://img.shields.io/github/stars/kwooshung/algorithm-sorts?labelColor=272e3b&color=165dff)
+[![Github CI/CD](https://github.com/kwooshung/AlgorithmSorts/actions/workflows/ci.yml/badge.svg)](https://github.com/kwooshung/AlgorithmSorts/actions/)
+[![codecov](https://codecov.io/gh/kwooshung/AlgorithmSorts/graph/badge.svg?token=VVZJE7H0KD)](https://codecov.io/gh/kwooshung/AlgorithmSorts)
+[![Maintainability](https://api.codeclimate.com/v1/badges/325d0881b1ca19165d35/maintainability)](https://codeclimate.com/github/kwooshung/AlgorithmSorts/maintainability/)
+[![GitHub License](https://img.shields.io/github/license/kwooshung/AlgorithmSorts?labelColor=272e3b&color=165dff)](LICENSE)
+[![Gitee Repo](https://img.shields.io/badge/gitee-algorithm--sorts-165dff?logo=gitee)](https://gitee.com/kwooshung/AlgorithmSorts/)
+![Github Stars](https://img.shields.io/github/stars/kwooshung/AlgorithmSorts?labelColor=272e3b&color=165dff)
 
 <p align="center">
     <a href="README.zh-CN.md">中文</a> | 
@@ -59,41 +59,41 @@ As the project name suggests, our project's algorithms only support `sorting`. I
 
 The comparison involves random data of 1000 items, with string lengths varying from 6 to 32 and numbers ranging from 0 to 1,000,000, as shown below:
 
-| Algorithm               | algorithms.js | @kwooshung/algorithm-sorts |   Difference   |
-| :---------------------- | :-----------: | :------------------------: | :------------: |
-| Bubble Sort             |  65.0368 ms   |         65.0298 ms         |   -0.0070 ms   |
-| Shout Bubble Sort       | 13251.3260 ms |        128.2500 ms         | -13123.0760 ms |
-| Cocktail Sort           |       -       |         52.7166 ms         |       -        |
-| Counting Sort           |       -       |         12.3503 ms         |       -        |
-| Optimized Counting Sort |  33.2357 ms   |         32.6380 ms         |   -0.5977 ms   |
-| Heap Sort               |   8.3025 ms   |         4.6525 ms          |   -3.6500 ms   |
-| Insertion Sort          |  27.4480 ms   |         27.4331 ms         |   -0.0149 ms   |
-| Merge Sort              |   2.9167 ms   |         2.5592 ms          |   -0.3575 ms   |
-| Pancake Sort            |       -       |         57.7009 ms         |      0 ms      |
-| Quick Sort              |   3.0599 ms   |         2.6374 ms          |   -0.4225 ms   |
-| Radix Sort              |   0.2070 ms   |         0.1339 ms          |   -0.0731 ms   |
-| Selection Sort          |  55.8389 ms   |         55.8000 ms         |   -0.0389 ms   |
-| Shell Sort              |   3.1775 ms   |         3.1564 ms          |   -0.0211 ms   |
-| Tim Sort                |       -       |         6.7950 ms          |       -        |
+| Algorithm               | algorithms.js | @kwooshung/AlgorithmSorts |   Difference   |
+| :---------------------- | :-----------: | :-----------------------: | :------------: |
+| Bubble Sort             |  65.0368 ms   |        65.0298 ms         |   -0.0070 ms   |
+| Shout Bubble Sort       | 13251.3260 ms |        128.2500 ms        | -13123.0760 ms |
+| Cocktail Sort           |       -       |        52.7166 ms         |       -        |
+| Counting Sort           |       -       |        12.3503 ms         |       -        |
+| Optimized Counting Sort |  33.2357 ms   |        32.6380 ms         |   -0.5977 ms   |
+| Heap Sort               |   8.3025 ms   |         4.6525 ms         |   -3.6500 ms   |
+| Insertion Sort          |  27.4480 ms   |        27.4331 ms         |   -0.0149 ms   |
+| Merge Sort              |   2.9167 ms   |         2.5592 ms         |   -0.3575 ms   |
+| Pancake Sort            |       -       |        57.7009 ms         |      0 ms      |
+| Quick Sort              |   3.0599 ms   |         2.6374 ms         |   -0.4225 ms   |
+| Radix Sort              |   0.2070 ms   |         0.1339 ms         |   -0.0731 ms   |
+| Selection Sort          |  55.8389 ms   |        55.8000 ms         |   -0.0389 ms   |
+| Shell Sort              |   3.1775 ms   |         3.1564 ms         |   -0.0211 ms   |
+| Tim Sort                |       -       |         6.7950 ms         |       -        |
 
 # Install
 
 ## npm
 
 ```bash
-npm install @kwooshung/algorithm-sorts
+npm install @kwooshung/AlgorithmSorts
 ```
 
 ## yarn
 
 ```bash
-yarn add @kwooshung/algorithm-sorts
+yarn add @kwooshung/AlgorithmSorts
 ```
 
 ## pnpm
 
 ```bash
-pnpm add @kwooshung/algorithm-sorts
+pnpm add @kwooshung/AlgorithmSorts
 ```
 
 # Usage
@@ -103,13 +103,13 @@ pnpm add @kwooshung/algorithm-sorts
 ### esm
 
 ```ts
-import { bubbleSort } from '@kwooshung/algorithm-sorts';
+import { bubbleSort } from '@kwooshung/AlgorithmSorts';
 ```
 
 ### commonjs
 
 ```ts
-const { bubbleSort } = require('@kwooshung/algorithm-sorts');
+const { bubbleSort } = require('@kwooshung/AlgorithmSorts');
 ```
 
 ## Supported Algorithms
@@ -133,4 +133,4 @@ const { bubbleSort } = require('@kwooshung/algorithm-sorts');
 
 # Gitee Repo
 
-[![KwooShung/algorithm-sorts](https://gitee.com/kwooshung/algorithm-sorts/widgets/widget_card.svg?colors=ffffff,1e252b,323d47,455059,d7deea,99a0ae)](https://gitee.com/kwooshung/algorithm-sorts)
+[![KwooShung/AlgorithmSorts](https://gitee.com/kwooshung/AlgorithmSorts/widgets/widget_card.svg?colors=ffffff,1e252b,323d47,455059,d7deea,99a0ae)](https://gitee.com/kwooshung/AlgorithmSorts)

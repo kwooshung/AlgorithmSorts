@@ -1,3 +1,11 @@
+## 🎉 1.0.11 `2024-02-01`
+### 🐛 Fix
+- 更改包裝的倉庫地址 ([#015c838](https://github.com/kwooshung/algorithm-sorts/commit/015c838377b8b0f07c0223d66cb846d55118f1c4))
+
+## 🎉 1.0.10 `2024-02-01`
+### 🐛 Fix
+- 修改倉庫名稱以使其更加統一 ([#9fe136e](https://github.com/kwooshung/algorithm-sorts/commit/9fe136e7789ef8aa05daacc81d6ae8313b86b832))
+
 ## 🎉 1.0.9 `2024-01-25`
 ### 💩 Optimization
 - 更新代碼依賴性，優化性能 ([#76bf2f4](https://github.com/kwooshung/algorithm-sorts/commit/76bf2f40a1af50e2891be430745e7f44268b1f81))

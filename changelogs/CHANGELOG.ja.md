@@ -1,3 +1,11 @@
+## 🎉 1.0.11 `2024-02-01`
+### 🐛 Fix
+- パッケージの倉庫アドレスを変更します ([#015c838](https://github.com/kwooshung/algorithm-sorts/commit/015c838377b8b0f07c0223d66cb846d55118f1c4))
+
+## 🎉 1.0.10 `2024-02-01`
+### 🐛 Fix
+- 倉庫名を変更して、より均一にします ([#9fe136e](https://github.com/kwooshung/algorithm-sorts/commit/9fe136e7789ef8aa05daacc81d6ae8313b86b832))
+
 ## 🎉 1.0.9 `2024-01-25`
 ### 💩 Optimization
 - コード依存関係を更新し、パフォーマンスを最適化します ([#76bf2f4](https://github.com/kwooshung/algorithm-sorts/commit/76bf2f40a1af50e2891be430745e7f44268b1f81))

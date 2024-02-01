@@ -2,20 +2,20 @@
 
 # @kwooshung/algorithm-sorts
 
-![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/kwooshung/algorithm-sorts?labelColor=272e3b&color=00b42A&logo=github)
-![GitHub last commit](https://img.shields.io/github/last-commit/kwooshung/algorithm-sorts?labelColor=272e3b&color=165dff)
-![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/kwooshung/algorithm-sorts?labelColor=272e3b&color=165dff)
-![GitHub top language](https://img.shields.io/github/languages/top/kwooshung/algorithm-sorts?labelColor=272e3b&color=165dff)
-![GitHub pull requests](https://img.shields.io/github/issues-pr/kwooshung/algorithm-sorts?labelColor=272e3b&color=165dff)
-![GitHub issues](https://img.shields.io/github/issues/kwooshung/algorithm-sorts?labelColor=272e3b&color=165dff)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/kwooshung/AlgorithmSorts?labelColor=272e3b&color=00b42A&logo=github)
+![GitHub last commit](https://img.shields.io/github/last-commit/kwooshung/AlgorithmSorts?labelColor=272e3b&color=165dff)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/kwooshung/AlgorithmSorts?labelColor=272e3b&color=165dff)
+![GitHub top language](https://img.shields.io/github/languages/top/kwooshung/AlgorithmSorts?labelColor=272e3b&color=165dff)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/kwooshung/AlgorithmSorts?labelColor=272e3b&color=165dff)
+![GitHub issues](https://img.shields.io/github/issues/kwooshung/AlgorithmSorts?labelColor=272e3b&color=165dff)
 [![NPM Version](https://img.shields.io/npm/v/@kwooshung/algorithm-sorts?labelColor=272e3b&color=165dff)](https://www.npmjs.com/package/@kwooshung/algorithm-sorts)
 [![Npm.js Downloads/Week](https://img.shields.io/npm/dw/@kwooshung/algorithm-sorts?labelColor=272e3b&labelColor=272e3b&color=165dff&logo=npm)](https://www.npmjs.com/package/@kwooshung/algorithm-sorts)
-[![Github CI/CD](https://github.com/kwooshung/algorithm-sorts/actions/workflows/ci.yml/badge.svg)](https://github.com/kwooshung/algorithm-sorts/actions/)
-[![codecov](https://codecov.io/gh/kwooshung/algorithm-sorts/graph/badge.svg?token=VVZJE7H0KD)](https://codecov.io/gh/kwooshung/algorithm-sorts)
-[![Maintainability](https://api.codeclimate.com/v1/badges/325d0881b1ca19165d35/maintainability)](https://codeclimate.com/github/kwooshung/algorithm-sorts/maintainability/)
-[![GitHub License](https://img.shields.io/github/license/kwooshung/algorithm-sorts?labelColor=272e3b&color=165dff)](LICENSE)
-[![Gitee Repo](https://img.shields.io/badge/gitee-algorithm--sorts-165dff?logo=gitee)](https://gitee.com/kwooshung/algorithm-sorts/)
-![Github Stars](https://img.shields.io/github/stars/kwooshung/algorithm-sorts?labelColor=272e3b&color=165dff)
+[![Github CI/CD](https://github.com/kwooshung/AlgorithmSorts/actions/workflows/ci.yml/badge.svg)](https://github.com/kwooshung/AlgorithmSorts/actions/)
+[![codecov](https://codecov.io/gh/kwooshung/AlgorithmSorts/graph/badge.svg?token=VVZJE7H0KD)](https://codecov.io/gh/kwooshung/AlgorithmSorts)
+[![Maintainability](https://api.codeclimate.com/v1/badges/325d0881b1ca19165d35/maintainability)](https://codeclimate.com/github/kwooshung/AlgorithmSorts/maintainability/)
+[![GitHub License](https://img.shields.io/github/license/kwooshung/AlgorithmSorts?labelColor=272e3b&color=165dff)](LICENSE)
+[![Gitee Repo](https://img.shields.io/badge/gitee-algorithm--sorts-165dff?logo=gitee)](https://gitee.com/kwooshung/AlgorithmSorts/)
+![Github Stars](https://img.shields.io/github/stars/kwooshung/AlgorithmSorts?labelColor=272e3b&color=165dff)
 
 <p align="center">
     <a href="README.md">English</a> | 
