@@ -1,3 +1,7 @@
+## 🎉 1.0.10 `2024-02-01`
+### 🐛 Fix
+- Modify the warehouse name to make it more uniform ([#9fe136e](https://github.com/kwooshung/algorithm-sorts/commit/9fe136e7789ef8aa05daacc81d6ae8313b86b832))
+
 ## 🎉 1.0.9 `2024-01-25`
 ### 💩 Optimization
 - Update code dependencies, optimize performance ([#76bf2f4](https://github.com/kwooshung/algorithm-sorts/commit/76bf2f40a1af50e2891be430745e7f44268b1f81))

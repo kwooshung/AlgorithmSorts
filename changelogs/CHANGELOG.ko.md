@@ -1,3 +1,7 @@
+## 🎉 1.0.10 `2024-02-01`
+### 🐛 Fix
+- 창고 이름을 수정하여 더 균일하게 만들 수 있습니다 ([#9fe136e](https://github.com/kwooshung/algorithm-sorts/commit/9fe136e7789ef8aa05daacc81d6ae8313b86b832))
+
 ## 🎉 1.0.9 `2024-01-25`
 ### 💩 Optimization
 - 코드 종속성을 업데이트하고 성능을 최적화합니다 ([#76bf2f4](https://github.com/kwooshung/algorithm-sorts/commit/76bf2f40a1af50e2891be430745e7f44268b1f81))
