@@ -1,3 +1,7 @@
+## 🎉 1.0.13 `2024-02-02`
+### 🐛 Fix
+- 英語文書、コマンドをインストールしてエラーを書き込む ([#ecf809d](https://github.com/kwooshung/algorithm-sorts/commit/ecf809d68524f23a4d3d026120d8a4fc29d38cb6))
+
 ## 🎉 1.0.12 `2024-02-02`
 ### 🐛 Fix
 - 高品質のテストバッジアドレス ([#00a6ef5](https://github.com/kwooshung/algorithm-sorts/commit/00a6ef56c0833b619f1db75f81f0fa8d87d95d7e))
